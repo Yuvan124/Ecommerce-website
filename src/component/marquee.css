@@ -1,0 +1,52 @@
+.marquee-container {
+    padding: 20px;
+}
+
+.marquee {
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.marquee img {
+    margin-right: 20px; 
+    margin-bottom: 20px;
+    
+   
+    object-fit: cover; 
+    vertical-align: middle; 
+}
+
+@media (max-width: 768px) {
+    .marquee img {
+        
+        margin-right: 10px; 
+    }
+}
+.head{
+    text-align: center;
+    font-size:xx-large;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-left: 130px;
+    color: rgb(17, 26, 83);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.bord{
+    margin-left: 60px;
+    text-align: center;
+    border-top: 1px dotted;
+    
+    border-bottom:1px dotted ;
+}
+.bord button{
+    background-color: #FFD700;
+    padding: 3px;
+    border-radius:5px;
+    padding: 4px 80px;
+    border-color: goldenrod;
+    
+}
+.bord button:hover{
+    background-color: #e0c00a;
+}

@@ -1,0 +1,66 @@
+/* about.css */
+
+/* Container for image and text */
+.about-container {
+    display: flex;
+    align-items: center; /* Center items vertically */
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 60px;
+    border: 1px solid rgb(239, 233, 233);
+    
+    box-shadow: 5px 10px 18px #888888;
+    width: 100%;
+    margin-left: 60px;
+    margin-right: 10px;
+  }
+  
+  /* Image styling */
+  .shop-image {
+    width: 75%; /* Make the image fill its container */
+    max-width: 75%;
+    height: 50%;
+    border-radius: 5px; /* Rounded corners for the image */
+    transition: transform 0.3s ease-in-out; /* Smooth transition for hover effect */
+  }
+  
+  /* Hover effect for image */
+  .shop-image:hover {
+    transform: scale(0.9); /* Decrease size on hover */
+  }
+  
+  /* Text styling */
+  .text-container {
+    flex: 0 0 45%; /* 45% width for the text container */
+    padding:  15px; /* Add some padding */
+    margin-right:10%;
+  }
+  
+  h2 {
+    color: rgb(14, 13, 13);
+    font-size: 24px;
+    margin-bottom: 15px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add shadow to text for better visibility */
+  }
+  
+  p {
+    color: rgb(7, 7, 7);
+    font-size: 18px;
+    line-height: 1.;
+    font-family:'Times New Roman', Times, serif
+  }
+  
+  
+  @keyframes moveUp {
+    0% {
+      transform: translateY(0); 
+    }
+    100% {
+      transform: translateY(-10px); 
+    }
+  }
+  
+  
+  .about-container {
+    animation: moveUp 1s ease-in-out infinite alternate; 
+  }

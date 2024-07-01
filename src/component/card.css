@@ -1,0 +1,184 @@
+/* card.css */
+
+/* Card Container */
+.card {
+  border-radius: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  background-color: #fff;
+  overflow: hidden;
+  margin-left: 45px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Card Image */
+.card-img-top {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.card-img-top img {
+  width: 80%;
+  height: auto;
+}
+
+/* Card Body */
+.card-body {
+  padding: 20px;
+}
+
+/* Card Title */
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Card Text */
+.card-text {
+  font-size: 15px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+/* Button Container */
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Button */
+.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* Icon */
+.icon {
+  margin-right: 5px;
+}
+span{
+  font-size: larger;
+  color:rgb(3, 11, 55);
+}
+.stars{
+  color:gold;
+
+}
+.search-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 60px;
+  margin-left: 300px;
+  padding-right:200px ;
+  
+}
+
+.search-input {
+  
+  margin-right: 0px;
+}
+
+.search-button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border:1px solid blue;
+  background-color: #007bff;
+  color: #fff;
+}
+.product-card {
+  padding: 20px;
+}
+
+.category-selector {
+  margin-bottom: 20px;
+}
+
+.category-selector button {
+  background-color: #edf1f6;
+  color: rgb(6, 6, 6);
+  border: 0.5px solid black;
+  
+  padding: 10px 15px;
+  margin-right: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  
+  text-align: center;
+  align-items: center;
+  
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  background-color: #fff;
+  overflow: hidden;
+  margin-left: 40px;
+ 
+}
+
+
+.category-selector button:hover {
+  background-color: #999da0;
+}
+
+.search-container {
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.search-input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+}
+
+
+
+.card {
+  margin-bottom: 20px;
+}
+
+.card-img-top img {
+  width: 100%;
+  height: auto;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  margin-bottom: 10px;
+}
+
+.rating-container {
+  margin-bottom: 10px;
+}
+
+.stars {
+  color: #ffc107;
+}
+
+.button-container button {
+  margin-right: 10px;
+}
+.categ{
+  text-align: center;
+  margin-left: 100px;
+  margin-bottom: 40px;
+  margin-top: 0px;
+}

@@ -1,0 +1,48 @@
+.carousel-container {
+    position: relative;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+    filter: blur(2px);
+}
+
+.carousel-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%; /* Adjust width as needed */
+    border-radius: 50%; /* Make controls circular */
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    color: white;
+}
+
+.carousel-control-prev-icon:before,
+.carousel-control-next-icon:before {
+    content: '';
+    display: inline-block;
+}
+
+.carousel-control-next-icon:before {
+    border-left: none;
+    border-right: 10px solid white;
+}
+
+
+.carousel-caption p{
+    color: aliceblue;
+}

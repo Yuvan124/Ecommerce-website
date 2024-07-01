@@ -1,0 +1,46 @@
+/* home.css */
+#as{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+    font-size:xx-large;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 0px;
+}
+.container{
+    margin-left: 0px ;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 100%;
+}
+.ma{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.footer {
+    background-color: rgb(3, 11, 55); /* Set background color */
+    color: white; /* Set text color */
+    padding: 20px; /* Add padding */
+    
+    width: 111%; /* Make the footer full width */
+    bottom: 0; /* Align the footer at the bottom */
+  }
+  
+
+  .marquee-container {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .marquee-content {
+    display: inline-block;
+    white-space: nowrap;
+    animation: marquee 20s linear infinite;
+  }
+  
+  @keyframes marquee {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+  }

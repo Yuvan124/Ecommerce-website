@@ -1,0 +1,84 @@
+#main {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:linear-gradient(rgb(134, 134, 202),rgb(83, 83, 93));
+}
+
+#ff1 {
+    height: 70%; 
+    width: 50%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto';
+    
+}
+#ff {
+    height: 70%; 
+    width: 50%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto';
+    
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+#ff1 {
+    background-color: azure;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-right: 10px;
+}
+
+#ff2 {
+    height: 90%;
+    width: 90%;
+    border-radius: 20px;
+    background-color: aquamarine;
+}
+
+#ff {
+    background-color: azure;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#fff1 {
+    height: 90%;
+    width: 100%;
+}
+
+
+
+.rating {
+    display: flex;
+}
+
+.rating svg {
+    font-size: 24px;
+    color: gold;
+}
+
+.product-details {
+    margin-top: 20px;
+}
+
+.product-details p {
+    font-size: 18px;
+}
+
+.button-group {
+    margin-top: 20px;
+}
+
+.button-group button {
+    margin-right: 10px;
+}
